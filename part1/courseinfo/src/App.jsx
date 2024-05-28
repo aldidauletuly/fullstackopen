@@ -12,6 +12,7 @@ const Part = ({ name, exercises }) => {
 
 const Content = ({ parts }) => {
   const [part1, part2, part3] = parts;
+  console.log('testing git aliases')
 
   return (
     <div>
