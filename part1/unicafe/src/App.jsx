@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import './App.css';
-//test
 
 const Button = ({ handleClick, text }) => (
   <button onClick={handleClick} id={text}>
